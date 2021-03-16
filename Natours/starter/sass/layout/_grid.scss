@@ -1,6 +1,6 @@
 .row{
   max-width: $grid-width;
-  background-color: #eee;
+ // background-color: #eee;
   //center block elements inside another block element
   margin: 0 auto;
   //Select everything except the last child
@@ -10,7 +10,6 @@
   @include clearfix;
 
   [class^="col-"]{
-    background-color: red;
     float: left;
     &:not(:last-child){
       margin-right: $gutter-horizontal ;
